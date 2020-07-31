@@ -8,6 +8,7 @@
           </div>
         </div>
         <br>
+        <!--Importante aca importamos las tablas-->
         <Table/>
       </div>
   </div>
@@ -15,12 +16,10 @@
 
 <script>
 import Table from './components/Table'
-import Insert from './components/Insert'
 export default {
   name: 'App',
   components:{
-    Table,
-    Insert
+    Table
   },
 }
 </script>
